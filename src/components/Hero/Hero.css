@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.future{
+display: flex;
+gap: 90px;
+justify-content: center;
+}
+
+.block{
+    max-width: 307px;
+    max-height: 190px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 19px;
+ 
+
+
+    img{
+        
+         max-width: 40px; 
+         max-height: 70px;
+        width: 100%; 
+        /* padding: 0 0 50px; */
+     
+    }
+}
+
+.future-h1{
+    display: flex;
+    justify-content: center;
+    padding:70px;
+}

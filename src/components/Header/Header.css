@@ -1,0 +1,59 @@
+
+.header{
+    background-color:dodgerblue;
+}
+
+.header__wrapper{
+    
+    display: flex;
+    align-items: center;
+    @media(max-width:850px  ) {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: 50px;
+    }
+}
+
+.header__box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    color: white;
+    @media(max-width:900px  ) {
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+}
+      
+    h1{
+        span{
+            font-size: 52px;
+        }
+    }
+    p{
+        max-width: 300px;
+    }
+
+    button{
+        background-color: orange;
+        max-width: 250px;
+        padding: 15px;
+        border: none;
+        transition: 0.3s;
+
+     
+    
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgb(194, 126, 1);
+
+        }
+    }
+}
+
+.header__img{
+    width: 100%;
+    max-width: 550px;
+}
